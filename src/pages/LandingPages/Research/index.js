@@ -60,7 +60,7 @@ function presentation() {
                 },
               })}
             >
-              Pronoy Patra{" "}
+              Research{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -69,7 +69,7 @@ function presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Undergraduate researcher - Machine Learning Lab
+              Machine Learning Lab (MLL)
             </MKTypography>
           </Grid>
         </Container>
@@ -88,9 +88,6 @@ function presentation() {
         <Container>
           <MKBox textAlign="center">
             <MKTypography variant="h3" verticalAlign="bottom" mt={6} mb={3}>
-              Research
-            </MKTypography>
-            <MKTypography variant="h5" verticalAlign="bottom" mt={3} mb={1}>
               Federated Learning, Game Theory, Fairness
             </MKTypography>
           </MKBox>

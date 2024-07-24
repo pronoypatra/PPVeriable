@@ -60,16 +60,7 @@ function presentation() {
                 },
               })}
             >
-              Pronoy Patra{" "}
-            </MKTypography>
-            <MKTypography
-              variant="body1"
-              color="white"
-              textAlign="center"
-              px={{ xs: 6, lg: 12 }}
-              mt={1}
-            >
-              Undergraduate researcher - Machine Learning Lab
+              Experience{" "}
             </MKTypography>
           </Grid>
         </Container>
@@ -88,9 +79,6 @@ function presentation() {
         <Container>
           <MKBox textAlign="center">
             <MKTypography variant="h3" verticalAlign="bottom" mt={6} mb={3}>
-              Experience
-            </MKTypography>
-            <MKTypography variant="h5" verticalAlign="bottom" mt={3} mb={1}>
               Internships - Industrial or research
             </MKTypography>
           </MKBox>
