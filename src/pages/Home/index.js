@@ -11,7 +11,7 @@ import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
 
 import Introduction from "pages/Home/sections/Introduction";
-
+import Typing from "typing";
 // Routes
 import routes from "routes";
 import footerRoutes from "footer.routes";
@@ -53,7 +53,7 @@ function presentation() {
               variant="h1"
               color="white"
               mt={-5}
-              mb={1}
+              mb={5}
               sx={({ breakpoints, typography: { size } }) => ({
                 [breakpoints.down("md")]: {
                   fontSize: size["3xl"],
@@ -66,10 +66,11 @@ function presentation() {
               variant="body1"
               color="white"
               textAlign="center"
-              px={{ xs: 6, lg: 12 }}
+              px={{ xs: 12, lg: 12 }}
               mt={1}
             >
-              Undergraduate researcher - Machine Learning Lab
+              {/* <Typing text="Enjoy your stay at the website" speed={50} /> */}
+              <Typing text="Undergraduate researcher - Machine Learning Lab" speed={50} />
             </MKTypography>
           </Grid>
         </Container>

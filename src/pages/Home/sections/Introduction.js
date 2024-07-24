@@ -22,7 +22,6 @@ import Container from "@mui/material/Container";
 import MKBox from "components/MKBox";
 // import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
-import Typing from "typing";
 // Images
 // import bgImage from "assets/images/shapes/waves-white.svg";
 
@@ -41,7 +40,6 @@ function Introduction() {
           <MKTypography variant="h3" verticalAlign="bottom" mt={6} mb={3}>
             About Me
           </MKTypography>
-          <Typing textToType="Welcome to my website! We hope you enjoy your stay." />
         </MKBox>
         <MKTypography variant="body1" mt={6} mb={3}>
           I am currently an undergraduate researcher at Machine Learning Lab. My research focuses on
